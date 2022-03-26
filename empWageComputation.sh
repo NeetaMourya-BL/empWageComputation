@@ -13,10 +13,10 @@ workingHour=8
 esac
 echo $workingHour
 }
-WageperHour=20
-totalSalary=0
-totalworkinghours=0
-day=1
+WageperHour=20;
+totalSalary=0;
+totalworkinghours=0;
+day=1;
 while [[ $day -le 20 && $totalworkinghours -lt 100 ]]
 do
 wHour=$(calculateWorkingHour $((RANDOM%3)))
