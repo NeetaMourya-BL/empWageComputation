@@ -1,5 +1,6 @@
 echo "Welcome to Employee Wage Computation Program on Master Branch"
 function calculateWorkingHour() {
+
 case $1 in
 0)
 workingHour=0
@@ -34,3 +35,4 @@ echo "Employee has earned $totalSalary $ in a month (Total working Hour : $total
 echo "Daily wage:"${Salary[@]}
 echo "Total wage:"${totalSalary[@]}
 echo "Total day:"${day[@]}
+echo "Employee has earned $totalSalary $ in a month (Total working Hour : $totalworkinghours)"
